@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tea Station</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar change">
+      <i class="fa-solid fa-xmark close-nav"></i>
+      <ul class="navbar-links">
+        <li><a class="change" href="#">Home</a></li>
+        <li><a class="change" href="#skills">Skills</a></li>
+        <li><a class="change" href="#about">About</a></li>
+        <li><a class="change" href="#products">Products</a></li>
+        <li><a class="change" href="#services">Services</a></li>
+        <li><a class="change" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- end of navbar -->
+    <!-- color picker -->
+    <div class="color-picker change">
+      <i class="fa-solid fa-xmark close-picker"></i>
+      <h2>Choose a theme!</h2>
+      <div class="color">
+        <div class="light radio">
+          <label class="inline-block" for="theme">Light</label>
+          <input
+            class="input-radio inline-block light-radio"
+            type="radio"
+            name="theme"
+            value="light"
+            checked
+          />
+        </div>
+        <div class="dark radio">
+          <label class="inline-block" for="theme">Dark</label>
+          <input
+            class="input-radio inline-block dark-radio"
+            type="radio"
+            name="theme"
+            value="dark"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- end of color picker -->
+    <!-- hero -->
+    <header class="hero">
+      <i class="fa-solid fa-bars open-nav"></i>
+      <i class="fa-solid fa-palette open-picker"></i>
+      <h2>over one hundred flavors of</h2>
+      <h1>specially crafted tea</h1>
+      <a class="hero-link" href="#">explore</a>
+    </header>
+    <!-- end of header -->
+    <!-- divider -->
+    <div class="divider"></div>
+    <!-- end of divider -->
+    <!-- skills section -->
+    <section class="skills" id="skills">
+      <!-- skill 1 -->
+      <article class="change">
+        <i class="fa-solid fa-mug-hot"></i>
+        <h2>Made in US</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
+          corrupti!
+        </p>
+      </article>
+      <!-- skill 2 -->
+      <article class="change">
+        <i class="fa-solid fa-champagne-glasses"></i>
+        <h2>Relaxation</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
+          corrupti!
+        </p>
+      </article>
+      <!-- skill 3 -->
+      <article class="change">
+        <i class="fa-solid fa-bolt"></i>
+        <h2>Energy</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
+          corrupti!
+        </p>
+      </article>
+      <!-- skill 4 -->
+      <article class="change">
+        <i class="fa-solid fa-people-group"></i>
+        <h2>Family Recipe</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
+          corrupti!
+        </p>
+      </article>
+    </section>
+    <!-- end of skills -->
+    <!-- about section -->
+    <section class="about section-padding change" id="about">
+      <img class="section-image shadow change" src="./images/about-bcg.jpeg" />
+      <div class="about-text">
+        <div class="services-text">
+          <h3 class="section-subtitle">about our</h3>
+          <h2 class="section-title">tea station</h2>
+        </div>
+        <p class="section-lorem">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
+          perspiciatis minima accusantium doloribus nesciunt atque sint maiores
+          maxime eum libero!
+        </p>
+        <p class="section-lorem">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci
+          blanditiis accusamus maiores sit recusandae modi dolorum facilis
+          consectetur architecto officia?
+        </p>
+        <a class="section-button" href="#">learn more</a>
+      </div>
+    </section>
+    <!-- end of about -->
+    <!-- products section -->
+    <section class="products section-padding change" id="products">
+      <div class="products-text">
+        <div class="services-text">
+          <h3 class="section-subtitle">check out</h3>
+          <h2 class="section-title">our products</h2>
+        </div>
+        <p class="section-lorem">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic corrupti
+          totam dolore soluta nisi, ipsa dolorem vitae voluptatibus tempora sit
+          blanditiis harum consequatur, adipisci, neque molestiae quaerat odit
+          ut. Excepturi?
+        </p>
+        <a href="#" class="section-button">inventory</a>
+      </div>
+      <div class="products-items">
+        <article class="product-card shadow change">
+          <img src="./images/product-1.jpeg" />
+          <p>ginger peach tea</p>
+          <p>$6.99</p>
+        </article>
+        <article class="product-card shadow change">
+          <img src="./images/product-2.jpeg" />
+          <p>fruit sangria</p>
+          <p>$6.99</p>
+        </article>
+        <article class="product-card shadow change">
+          <img src="./images/product-3.jpeg" />
+          <p>white tea</p>
+          <p>$6.99</p>
+        </article>
+      </div>
+    </section>
+    <!-- end of products -->
+    <!-- services section -->
+    <section class="services section-padding change" id="services">
+      <div class="services-text">
+        <h3 class="section-subtitle">explore</h3>
+        <h2 class="section-title">our services</h2>
+      </div>
+      <div class="services-items">
+        <article class="services-card shadow change">
+          <img src="./images/product-1.jpeg" />
+          <div>
+            <h4>custom recipes</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+              necessitatibus placeat maiores magni temporibus odio in cupiditate
+              hic debitis iste.
+            </p>
+            <a href="#">read more</a>
+          </div>
+        </article>
+        <article class="services-card shadow change">
+          <img src="./images/product-2.jpeg" />
+          <div>
+            <h4>home delivery</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+              necessitatibus placeat maiores magni temporibus odio in cupiditate
+              hic debitis iste.
+            </p>
+            <a href="#">read more</a>
+          </div>
+        </article>
+        <article class="services-card shadow change">
+          <img src="./images/product-3.jpeg" />
+          <div>
+            <h4>tea aging</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+              necessitatibus placeat maiores magni temporibus odio in cupiditate
+              hic debitis iste.
+            </p>
+            <a href="#">read more</a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- end of services -->
+    <!-- contact section -->
+    <section class="contact section-padding change" id="contact">
+      <div class="contact-information">
+        <h4 class="contact-title">
+          <i class="fa-solid fa-paper-plane"></i> address
+        </h4>
+        <h4 class="contact-text">523 N FAIRFAX AVE LOS ANGELES, CA 90048</h4>
+        <h4 class="contact-title">
+          <i class="fa-solid fa-envelope"></i> email
+        </h4>
+        <h4 class="contact-text">name@gmail.com</h4>
+        <h4 class="contact-title">
+          <i class="fa-solid fa-phone"></i> telephone
+        </h4>
+        <h4 class="contact-text">+ 123 456 789</h4>
+      </div>
+      <form class="form shadow change">
+        <div class="form-group">
+          <h3>contact us</h3>
+          <div class="inputs">
+            <input
+              class="input"
+              type="text"
+              name="name"
+              id="name"
+              placeholder="name"
+              required
+            />
+            <input
+              class="input"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="email"
+              required
+            />
+            <textarea
+              class="input"
+              name="message"
+              id="message"
+              rows="5"
+              placeholder="message"
+              required
+            ></textarea>
+          </div>
+        </div>
+        <button class="form-submit" type="submit">submit here</button>
+      </form>
+    </section>
+    <!-- end of contact section -->
+    <footer class="footer">
+      <div class="footer-socials">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <div class="footer-text">
+        <h4>
+          <i class="fa-solid fa-copyright"></i> <span class="date"> </span>
+          <span class="company">tea station</span> all rights reserved
+        </h4>
+      </div>
+    </footer>
+    <!-- end of footer -->
+    <!-- script -->
+    <script
+      src="https://kit.fontawesome.com/e7fc9f162e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+    <!-- end of script -->
+  </body>
+</html>
